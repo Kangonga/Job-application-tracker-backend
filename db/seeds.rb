@@ -13,5 +13,20 @@ Job.create(job_title: Faker::Job.title,company_name: Faker::Company.name, descri
 Job.create(job_title: Faker::Job.title,company_name: Faker::Company.name, description:Faker::Job.field, qualifications:Faker::Job.key_skill, deadline: Faker::Date.in_date_period(month: 12) , apply: false )
 Job.create(job_title: Faker::Job.title,company_name: Faker::Company.name, description:Faker::Job.field, qualifications:Faker::Job.key_skill, deadline: Faker::Date.in_date_period(month: 12) , apply: true )
 Job.create(job_title: Faker::Job.title,company_name: Faker::Company.name, description:Faker::Job.field, qualifications:Faker::Job.key_skill, deadline: Faker::Date.in_date_period(month: 12) , apply: true  )
+
+
+User.all.each do |user|
+  rand(1..3).times do
+    # get a random job
+    job = Job.find(Job.pluck(:id).sample)
+
+    Application.create!(user_id: user.id, job_id: job.id, application_stage: [:submitted, :phone_screen, :interview, :accepted].sample)
+  end
+end
+
+
+
+
+
 puts "Done seeding"
 #Application.create(user_id:1, job_id: 2,)
