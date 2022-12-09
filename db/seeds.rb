@@ -9,6 +9,7 @@ puts "seeding"
 10.times do
     User.create(username:Faker::Name.name, email: Faker::Internet.free_email, password: "12345")
 end
+User.create(username:"test",email: "test@example.com", password: "12345")
 Job.create(job_title: Faker::Job.title,company_name: Faker::Company.name, description:Faker::Job.field, qualifications:Faker::Job.key_skill, deadline: Faker::Date.in_date_period(month: 12) , apply: true  )
 Job.create(job_title: Faker::Job.title,company_name: Faker::Company.name, description:Faker::Job.field, qualifications:Faker::Job.key_skill, deadline: Faker::Date.in_date_period(month: 12) , apply: false )
 Job.create(job_title: Faker::Job.title,company_name: Faker::Company.name, description:Faker::Job.field, qualifications:Faker::Job.key_skill, deadline: Faker::Date.in_date_period(month: 12) , apply: true )
