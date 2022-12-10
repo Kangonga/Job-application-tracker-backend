@@ -77,8 +77,6 @@ NodeJS
 1. Clone the repo
     ```sh 
     git@github.com:Kangonga/Job-application-tracker-backend.git
-  ```
-  ```
   
 2. Install the dependencies
 ```sh
@@ -114,10 +112,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## Contacts
 
-Project Link: [https://github.com/SheeTabz/DigiHoteL](https://github.com/your_username/repo_name)
-
+Project Front end Link: [https://github.com/Kangonga/job-tracker-frontend](https://github.com/your_username/repo_name)
+Project Back end Link: [https://github.com/Kangonga/Job-application-tracker-backend](https://github.com/your_username/repo_name)
+Back end deployment link: [https://rails-production-d150.up.railway.app/]
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
