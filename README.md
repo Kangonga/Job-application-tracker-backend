@@ -75,8 +75,9 @@ NodeJS
 ### Installation
 
 1. Clone the repo
-    ```sh 
+```sh 
     git@github.com:Kangonga/Job-application-tracker-backend.git
+  ```
   
 2. Install the dependencies
 ```sh
@@ -87,19 +88,19 @@ NodeJS
     rails db:create db:migrate db:seed
 ```
 
-3. Start the rails server
+4. Start the rails server
 ```sh
     rails s
 ```
-4. Clone the front-end repository at
+5. Clone the front-end repository at
 ```sh
     git@github.com:Kangonga/job-tracker-frontend.git
 ```
-5. Install the dependencies
+6. Install the dependencies
 ```sh
     npm install
 ```
-6. Start the npm server
+7. Start the npm server
 ```sh
     npm start
 ```
