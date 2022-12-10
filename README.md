@@ -82,14 +82,18 @@ NodeJS
 ```sh
   bundle install
 ```
+3. Set up the database
+```sh
+rails db:create db:migrate db:seed
+```
 
 3. Start the rails server
 ```sh
-rails s
+  rails s
 ```
 4. Clone the front-end repository at
 ```sh
-git@github.com:Kangonga/job-tracker-frontend.git
+  git@github.com:Kangonga/job-tracker-frontend.git
 ```
 5. Install the dependencies
 ```sh
