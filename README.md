@@ -78,10 +78,13 @@ NodeJS
     ```sh 
     git@github.com:Kangonga/Job-application-tracker-backend.git
   ```
+  ```
+  
 2. Install the dependencies
 ```sh
-bundle install
+  bundle install
 ```
+
 3. Start the rails server
 ```sh
 rails s
