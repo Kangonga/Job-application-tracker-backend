@@ -67,8 +67,8 @@ NodeJS
   npm install npm@latest -g
   ```
 * Ruby
- ```sh The article referenced by the link below is a good place to start
- 
+The article referenced by the link below is a good place to start
+  ```sh 
   https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04
   ```
 
