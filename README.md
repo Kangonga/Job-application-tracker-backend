@@ -120,9 +120,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contacts
 
-Project Front end Link: [https://github.com/Kangonga/job-tracker-frontend](https://github.com/your_username/repo_name)
-Project Back end Link: [https://github.com/Kangonga/Job-application-tracker-backend](https://github.com/your_username/repo_name)
-Back end deployment link: [https://rails-production-d150.up.railway.app/]
+*Project Front end Link: [https://github.com/Kangonga/job-tracker-frontend](https://github.com/your_username/repo_name)
+*Project Back end Link: [https://github.com/Kangonga/Job-application-tracker-backend](https://github.com/your_username/repo_name)
+*Back end deployment link: [https://rails-production-d150.up.railway.app/]
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
