@@ -123,7 +123,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contacts
 
-*Project Front end Link: [https://github.com/Kangonga/job-tracker-frontend]
+*Project Front end Repository: [https://github.com/Kangonga/job-tracker-frontend]
+
+*Project front end deployment: [https://job-tracker-frontend-six.vercel.app]
 
 *Project Back end Link: [https://github.com/Kangonga/Job-application-tracker-backend]
 
