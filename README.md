@@ -107,7 +107,7 @@ The article referenced by the link below is a good place to start
 ```
 8. Test user details
 ```sh
-  username:testUser, password:12345, email: test@example.com
+    password:12345, email: karla@gmail.com
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
