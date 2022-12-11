@@ -105,10 +105,7 @@ The article referenced by the link below is a good place to start
 ```sh
     npm start
 ```
-8. Test user details
-```sh
-    password:12345, email: karla@gmail.com
-```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -126,6 +123,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 *Project Front end Repository: [https://github.com/Kangonga/job-tracker-frontend]
 
 *Project front end deployment: [https://job-tracker-frontend-six.vercel.app]
+
+Login Details:
+```sh
+    password:12345, email: karla@gmail.com
+```
 
 *Project Back end Link: [https://github.com/Kangonga/Job-application-tracker-backend]
 
